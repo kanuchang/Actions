@@ -10,7 +10,7 @@ on:
     watch:
         types: [started]
     repository_dispatch:
-        types: jd_jdFactory
+        types: jd_jdfactory
 
 jobs:
     build:
@@ -31,7 +31,7 @@ jobs:
             - name: "运行 【东东工厂】"
               run: |
                   cd ~/JiDo
-                  node jd_jdFactory.js
+                  node jd_jdfactory.js
 env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
