@@ -37,7 +37,7 @@ jobs:
           npm install tough-cookie
       - name: '运行 【企鹅读书】'
         run: |
-          node qqreads.js
+          node qqreads1.js
         env:
         COOKIES_SPLIT: ${{ secrets.COOKIES_SPLIT }}
         QQREAD_HEADER: ${{ secrets.QQREAD_HEADER }}
