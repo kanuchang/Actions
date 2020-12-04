@@ -19,14 +19,14 @@ jobs:
         steps:
             - name: Checkout
               run: |
-                git clone https://github.com/whyour/hundun.git ~/JiDo
+                git clone https://github.com/whyour/hundun.git ~/JiXi
             - name: Use Node.js 10.x
               uses: actions/setup-node@v1
               with:
                   node-version: 10.x
             - name: npm install
               run: |
-                  cd ~/JiDo/quanx
+                  cd ~/JiXi/quanx
                   npm install
             - name: "运行 【京喜金牌厂长】"
               run: |
