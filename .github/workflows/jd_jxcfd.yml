@@ -26,11 +26,11 @@ jobs:
                   node-version: 10.x
             - name: npm install
               run: |
-                  cd ~/JiXi/Script/Me
+                  cd ~/JiXi/Me
                   npm install
             - name: "运行 【京喜财富岛】"
               run: |
-                  cd ~/JiXi/Script/Me
+                  cd ~/JiXi/Me
                   node jx_cfd.js
 env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
