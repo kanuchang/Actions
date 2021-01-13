@@ -6,7 +6,7 @@ name: 京东家庭号
 on:
     workflow_dispatch:
     schedule:
-        - cron: '15 0,4,8,16 * * *'
+        - cron: '15 * * * *'
     watch:
         types: [started]
     repository_dispatch:
