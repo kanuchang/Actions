@@ -19,7 +19,6 @@ jobs:
         steps:
             - name: Checkout
               run: |
-                git clone -b master https://gitee.com/lxk0301/jd_scripts.git ~/JiDo
             - name: Use Node.js 10.x
               uses: actions/setup-node@v1
               with:
